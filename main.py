@@ -2,7 +2,7 @@ from flask import *
 
 app = Flask(__name__)
 
-
+#asd
 @app.route('/')
 def index():
     return render_template_string('123')
